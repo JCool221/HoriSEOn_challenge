@@ -1,20 +1,21 @@
+/* page setup */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* page background color */
 body {
     background-color: #d9dcd6;    
 }
-
+/* set header size, colors and fonts */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;    
 }
-
+/* set size, color and layout for h1 */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,7 +24,7 @@ h1 {
 h1 .seo {
     color: #d9dcd6;
 }
-
+/* set size, color, layout and fonts for h2 elements */
 header h2{
     padding-top: 15px;
     margin-right: 20px;
@@ -40,42 +41,59 @@ h2 ul {
 h2 ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-    
-
+}  
+/* set link appearance */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* set paragraph font size */
 p {
     font-size: 16px;
 }
-
+/* style the main center of page image */
 .hero { 
     height: 800px;
     object-fit: cover;
     width: 100%;
     margin-bottom: 25px;    
 }
-
+/* set behavior of articles with float-left id */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* set behavior of articles with float-right id */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* set size, colors, fonts and layout for content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* set size, colors, layout and fonts for aside */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -102,25 +120,7 @@ aside article img {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content article img {
-    max-height: 200px;
-}
-
-.content article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* set size style and fonts for footer */
 footer {
     padding: 30px;
     clear: both;
